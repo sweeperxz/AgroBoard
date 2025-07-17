@@ -1,0 +1,7 @@
+﻿services:
+  agroboard:
+    image: agroboard
+    build:
+      context: .
+      dockerfile: AgroBoard/Dockerfile
+
